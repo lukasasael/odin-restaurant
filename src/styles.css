@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 9fr;
+}
+
+#header {
+    width: 100%;
+    height: 100%;
+    background-color: #FCF5E5;
+}
+
+#content {
+    background-color: #E2DFD2;
+}
+
+ul li {
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;  
+    list-style-type: none;
+}

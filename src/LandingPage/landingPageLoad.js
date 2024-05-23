@@ -1,4 +1,4 @@
-export function pageLoad() {
+export function landingPageLoad() {
     const mainPage = document.getElementById("content")
     const img = document.createElement("img")
     img.src = "../../sources/LOGO.png"
