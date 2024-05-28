@@ -46,3 +46,22 @@ a {
     width: 5%;
     height: auto;
 }
+
+#hours {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#art {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#end-img {
+    width: 50%;
+    height: auto;
+}

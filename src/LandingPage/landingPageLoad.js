@@ -2,7 +2,7 @@ export function landingPageLoad() {
     const mainPage = document.getElementById("content")
    
     const heading = document.createElement("h1")
-    heading.textContent = "Fancy Indian Restaurant"
+    heading.textContent = "Fancy Restaurant"
     mainPage.appendChild(heading);
 
     const paragraph = document.createElement("p")
