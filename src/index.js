@@ -8,11 +8,17 @@ landingPageLoad()
 var page = document.getElementById("content")
 
 var homeButton = document.getElementById("homeLink")
+var homeButton2 = document.getElementById("homeLink2")
 var menuButton = document.getElementById("menuLink")
 var hoursButton = document.getElementById("hoursLink")
 var artButton = document.getElementById("artLink")
 
 homeButton.onclick = function() {
+    clearPage()
+    landingPageLoad()
+}
+
+homeButton2.onclick = function() {
     clearPage()
     landingPageLoad()
 }

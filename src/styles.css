@@ -17,8 +17,26 @@ body {
 }
 
 ul li {
-    display: inline-block;
+    display: inline-flex;
     padding: 0.5em 1em;
-    text-decoration: none;  
-    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#homeLink:hover {
+    cursor: pointer;
+}
+
+#main-img {
+    width: 100vw;
+    height: 30vh;
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
 }
