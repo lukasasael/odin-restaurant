@@ -23,6 +23,7 @@ ul li {
 
 a {
     text-decoration: none;
+    align-self: center;
 }
 
 #homeLink:hover {
@@ -37,6 +38,11 @@ a {
 #menu {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     height: 100%;
+}
+
+#menu-icon {
+    margin-right: 2%;
+    width: 5%;
+    height: auto;
 }

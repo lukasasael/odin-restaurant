@@ -4,14 +4,27 @@ export function menuPageLoad() {
     menuPage.id = "menu"
 
     const list = document.createElement('ul')
-    const items = ['Pizza', 'Hamburgers', 'Italian Pasta', 'Sushi', 'Kibe']
+    list.id = "menu"
+    const items = ['Pizza', 'Hamburgers', 'Spaguetti', 'Sushi', 'Taco']
+    var imgArray = new Array()
+    imgArray.push("../sources/pizza.png")
+    imgArray.push("../sources/hamburguer.png")
+    imgArray.push("../sources/spaguetti.png")
+    imgArray.push("../sources/sushi.png")
+    imgArray.push("../sources/taco.png")
+
 
     for (const item in items) {
         const newItem1 = document.createElement('li')
         const newItem2 = document.createElement('a')
-        newItem2.textContent = items[item];
+        const img = document.createElement("img")
+        img.src = imgArray[item]
+        img.id = "menu-icon"
+        newItem1.appendChild(img)
+        newItem2.textContent = items[item]
         newItem1.appendChild(newItem2)
         list.appendChild(newItem1)
+
     }
     menuPage.appendChild(list)
     mainPage.appendChild(menuPage)
